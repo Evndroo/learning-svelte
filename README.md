@@ -1,47 +1,17 @@
-# Svelte + TS + Vite
+<img src="https://github.com/Evndroo/learning-svelte/blob/main/public/beet.png?raw=true" alt="Just a beet" width="45"/>
 
-This template should help get you started developing with Svelte and TypeScript in Vite.
+# Learning Svelte
 
-## Recommended IDE Setup
+Just some code to check the differences between svelte and some other frontend frameworks.
 
-[VS Code](https://code.visualstudio.com/) + [Svelte](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode).
+### What you will find here
 
-## Need an official Svelte framework?
+In this repository you will find a not clean svelte code, the reason for this is to show the specific anatomy of svelte code and to help this achieve, there will be some comments explaining things that for those who already know svelte are obvious explanations.
 
-Check out [SvelteKit](https://github.com/sveltejs/kit#readme), which is also powered by Vite. Deploy anywhere with its serverless-first approach and adapt to various platforms, with out of the box support for TypeScript, SCSS, and Less, and easily-added support for mdsvex, GraphQL, PostCSS, Tailwind CSS, and more.
+### Why the logo of this project is a beet?
 
-## Technical considerations
+Make code and learn new technologies is already fun, if you make jokes on this process it will be better!
 
-**Why use this over SvelteKit?**
+In the ui created here you will find the [Schrute Farm](<https://en.wikipedia.org/wiki/The_Farm_(The_Office)>) simulation where you can plant beets
 
-- It brings its own routing solution which might not be preferable for some users.
-- It is first and foremost a framework that just happens to use Vite under the hood, not a Vite app.
-
-This template contains as little as possible to get started with Vite + TypeScript + Svelte, while taking into account the developer experience with regards to HMR and intellisense. It demonstrates capabilities on par with the other `create-vite` templates and is a good starting point for beginners dipping their toes into a Vite + Svelte project.
-
-Should you later need the extended capabilities and extensibility provided by SvelteKit, the template has been structured similarly to SvelteKit so that it is easy to migrate.
-
-**Why `global.d.ts` instead of `compilerOptions.types` inside `jsconfig.json` or `tsconfig.json`?**
-
-Setting `compilerOptions.types` shuts out all other types not explicitly listed in the configuration. Using triple-slash references keeps the default TypeScript setting of accepting type information from the entire workspace, while also adding `svelte` and `vite/client` type information.
-
-**Why include `.vscode/extensions.json`?**
-
-Other templates indirectly recommend extensions via the README, but this file allows VS Code to prompt the user to install the recommended extension upon opening the project.
-
-**Why enable `allowJs` in the TS template?**
-
-While `allowJs: false` would indeed prevent the use of `.js` files in the project, it does not prevent the use of JavaScript syntax in `.svelte` files. In addition, it would force `checkJs: false`, bringing the worst of both worlds: not being able to guarantee the entire codebase is TypeScript, and also having worse typechecking for the existing JavaScript. In addition, there are valid use cases in which a mixed codebase may be relevant.
-
-**Why is HMR not preserving my local component state?**
-
-HMR state preservation comes with a number of gotchas! It has been disabled by default in both `svelte-hmr` and `@sveltejs/vite-plugin-svelte` due to its often surprising behavior. You can read the details [here](https://github.com/rixo/svelte-hmr#svelte-hmr).
-
-If you have state that's important to retain within a component, consider creating an external store which would not be replaced by HMR.
-
-```ts
-// store.ts
-// An extremely simple external store
-import { writable } from "svelte/store";
-export default writable(0);
-```
+<a href="https://www.flaticon.com/free-icons/beet" title="beet icons">Beet icons created by Freepik - Flaticon</a>
