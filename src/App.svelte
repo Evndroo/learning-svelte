@@ -3,7 +3,8 @@
 </script>
 
 <main>
-  <Counter subjectPlural="beets" subjectSingular="beet" />
+  <!-- Boolean props can be pass without a explicit value if you want then to be true, like in react  -->
+  <Counter subjectPlural="beets" subjectSingular="beet" showImages />
 </main>
 
 <style>
