@@ -15,3 +15,9 @@ Make code and learn new technologies is already fun, if you make jokes on this p
 In the ui created here you will find the [Schrute Farm](<https://en.wikipedia.org/wiki/The_Farm_(The_Office)>) simulation where you can plant beets
 
 <a href="https://www.flaticon.com/free-icons/beet" title="beet icons">Beet icons created by Freepik - Flaticon</a>
+
+# TODO's for this project
+
+- Create pages using some [router library](https://svelte.dev/docs/faq#is-there-a-router)
+- Create a form page to show the basis of how to handle form events
+- Create a group of pages with shared state, something like a dark mode
