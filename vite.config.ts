@@ -6,6 +6,7 @@ export default defineConfig({
   resolve: {
     alias: {
       $assets: resolve("./src/assets"),
+      $lib: resolve("./src/lib"),
     },
   },
   plugins: [svelte()],
